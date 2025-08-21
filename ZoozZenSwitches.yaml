@@ -1,6 +1,6 @@
 blueprint:
-  name: "Zooz ZEN72"
-  description: "Automations helper for the Zooz ZEN72 Dimmer Switch using the Zwave JS integration."
+  name: "Zooz ZEN Switch Scene Integrations"
+  description: "Automations helper for the Zooz ZEN71/72/73/74/76/77 Switches using the Zwave JS integration."
   domain: automation
   input:
     automation_mode:
@@ -20,7 +20,7 @@ blueprint:
           sort: false
           multiple: false
     zooz_zen72:
-      name: "Zooz ZEN71/72/73/74/76/77"
+      name: "Zooz ZEN Switch"
       description: "Choose the ZEN Switch with which to interact."
       selector:
         device:
